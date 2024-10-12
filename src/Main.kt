@@ -1,6 +1,15 @@
 fun main() {
-    println("Hello World!")
+
+    database.connect()
+
+
 }
-object class(){
+object database {
+    val name = "kotlinDB"
+
+    fun connect() {
+
+        println("connected to $name")
+    }
 
 }
